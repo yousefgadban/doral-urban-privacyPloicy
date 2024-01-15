@@ -27,6 +27,14 @@
       z-index: 1;
     }
 
+    .icon-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 32px;
+      z-index: 1;
+    }
+
     .title {
       color: #2196f3;
       font-weight: 300;
@@ -47,8 +55,22 @@
       text-align: right;
       font-size: 14px;
     }
+
+    @media only screen and (min-width: 800px) {
+      body {
+        padding: 0 80px;
+      }
+    }
   </style>
   <body>
+    <div class="icon-container">
+      <img
+        style="margin-right: 16px; width: 64px; height: 64px"
+        src="icon-big.png"
+        alt="Doral Urban Home"
+      />
+      <h2 class="title">Doral Urban Home</h2>
+    </div>
     <div class="title-container">
       <h3 class="title">מדיניות הפרטיות</h3>
       <div class="vertical-line"></div>
